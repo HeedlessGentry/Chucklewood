@@ -10,14 +10,18 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <Router>
+      <div className="app-container">
       <Navbar />
       <ScrollToTop />
+      <div className="routes-container">
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/recommendations" element={<Recommendations />} />
       </Routes>
+      </div>
+      </div>
     </Router>
   );
 }
