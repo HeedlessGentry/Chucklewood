@@ -24,5 +24,7 @@ function Recommendations () {
                 </form>
             </div>
         </div>
-    )
+    );
 }
+
+export default Recommendations;
