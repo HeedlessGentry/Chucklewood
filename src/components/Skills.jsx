@@ -37,7 +37,7 @@ function Skills() {
                             <figcaption>Python<br /><br />1/2 years experience</figcaption>
                         </figure>
                     </div>
-                    <div className="skills-card">
+                    <div className="skill-card">
                         <figure>
                             <img
                             src="https://banner2.cleanpng.com/20180711/iqy/aawpwnuou.webp"
@@ -47,7 +47,7 @@ function Skills() {
                             <figcaption>GitHub<br /><br />1 year experience</figcaption>
                         </figure>
                     </div>
-                    <div className="skills-card">
+                    <div className="skill-card">
                         <figure>
                             <img
                             src="https://png.pngtree.com/png-clipart/20200720/original/pngtree-seo-logo-design-png-image_4783100.jpg"
