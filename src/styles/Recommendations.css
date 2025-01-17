@@ -1,0 +1,69 @@
+.refs-section {
+    display: flex;
+    flex-direction: column; /* Create a column layout */
+    align-items: flex-start; /* Align the <h2> tag to the left */
+    padding: 15px;
+  }
+  
+.refs-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align the cards to the left */
+  }
+  
+.refs {
+    width: 350px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    font-style: italic;
+    font-weight: 600;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.refs:hover {
+    transform: scale(1.05); 
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); 
+  }
+    
+.add-refs {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+.add-refs h5 {
+    margin-bottom: 10px;
+    font-size: 20px
+  }
+  
+.add-refs form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.jina {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.ms {
+    width: 33%;
+    padding: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.add-refs button {
+    padding: 10px 40px;
+    color: maroon;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

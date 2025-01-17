@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.profile_pic {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.about_me{
+    flex-wrap: wrap;
+}

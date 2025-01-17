@@ -1,10 +1,11 @@
 import React from "react";
+import '../styles/Skills.css';
 
 function Skills() {
     return (
         <div>
             <div className="skills-section">
-                <h1>Skills</h1>
+                <h1 style={{color: 'maroon', fontWeight: 'bold', fontSize: '24px'}}>Skills</h1>
                 <div className="skills-cards">
                     <div className="skill-card">
                         <figure>

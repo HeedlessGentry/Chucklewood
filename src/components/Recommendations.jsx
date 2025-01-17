@@ -1,9 +1,10 @@
 import React from "react";
+import '../styles/Recommendations.css';	
 
 function Recommendations () {
     return (
         <div className="refs-section">
-            <h1>Recommendations</h1>
+            <h1 style={{color:'maroon', fontWeight: 'bold', fontSize: '24px'  }}>Recommendations</h1>
             <div className="refs-cards">
                 <div className="refs">
                     <p>"Chucklewood is a dedicated team player who consistently goes above and beyond to support his colleagues. His positive attitude and adaptability make him a valuable asset to any team. He consistently delivers results while maintaining a fun and collaborative work environment."</p>

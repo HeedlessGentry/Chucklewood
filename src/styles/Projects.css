@@ -1,0 +1,11 @@
+.projects{
+    padding: 15px;
+}
+
+hr {
+    border-top: 2px solid #ccc;
+    height: 0;
+    width: 80%;
+    margin: 20px auto;
+    background-color: transparent;
+}
