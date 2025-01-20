@@ -6,19 +6,19 @@ import '../styles/LandingPage.css';
 const LandingPage = () => {
     const slides = [
         {
-            image: "C:/Users/CHRIS/Downloads/pexels-tirachard-kumtanom-112571-733856",
+            image: "/images/pexels-tirachard-kumtanom-112571-733856.jpg",
             text: "Welcome to Our Website",
             buttonText: "Learn More",
             link: "/about",
         },
         {
-            image: "C:/Users/CHRIS/Downloads/pexels-mikhail-nilov-7988747",
+            image: "/images/pexels-mikhail-nilov-7988747.jpg",
             text: "Explore Our Skills and Projects",
             buttonText: "View Projects",
             link: "/projects",
         },
         {
-            image: "C:/Users/CHRIS/Downloads/pexels-karolina-grabowska-7875947",
+            image: "/images/pexels-karolina-grabowska-7875947.jpg",
             text: "Recommendations Await",
             buttonText: "See Recommendations",
             link: "/recommendations",
