@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Recommendations from "./components/Recommendations";
 import ScrollToTop from "./components/ScrollToTop";
+import LandingPage from "./components/LandingPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ScrollToTop />
       <div className="routes-container">
       <Routes>
+        <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
