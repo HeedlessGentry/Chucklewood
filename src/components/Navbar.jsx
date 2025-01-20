@@ -9,6 +9,7 @@ function Navbar () {
                 <Link to = "/">.Com?!</Link>
             </h1>
             <div className="nav-links">
+                <Link to="/about">About</Link>
                 <Link to="/skills">Skills</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/recommendations">Recommendations</Link>
