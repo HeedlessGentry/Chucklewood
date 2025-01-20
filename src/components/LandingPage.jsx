@@ -6,19 +6,19 @@ import '../styles/LandingPage.css';
 const LandingPage = () => {
     const slides = [
         {
-            image: "/images/pexels-tirachard-kumtanom-112571-733856.jpg",
+            image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fpeople-working&psig=AOvVaw14TsIpox2QZBVLE4HR6Et_&ust=1737468743656000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDT1M29hIsDFQAAAAAdAAAAABAE",
             text: "Welcome to Our Website",
             buttonText: "Learn More",
             link: "/about",
         },
         {
-            image: "/images/pexels-mikhail-nilov-7988747.jpg",
+            image: "https://www.consulthr.co.uk/wp-content/uploads/2023/11/pexels-fauxels-3183150.jpg",
             text: "Explore Our Skills and Projects",
             buttonText: "View Projects",
             link: "/projects",
         },
         {
-            image: "/images/pexels-karolina-grabowska-7875947.jpg",
+            image: "https://img.freepik.com/premium-photo/programming-background-with-person-working-with-codes-computer_23-2150010150.jpg",
             text: "Recommendations Await",
             buttonText: "See Recommendations",
             link: "/recommendations",
