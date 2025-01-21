@@ -78,8 +78,7 @@
 .brief{
     display: flex;
     padding: 20px;
-    flex-direction: column;
-    align-items: center;
+    justify-content: flex-end;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -93,7 +92,11 @@
 .about_me{
     flex-wrap: wrap;
     margin-bottom: 10px;
-    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .click {
@@ -115,7 +118,7 @@
 .skills-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
     width: 100%;
     margin-top: 20px;
@@ -124,7 +127,7 @@
 .skills-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 20px;
 }
 
