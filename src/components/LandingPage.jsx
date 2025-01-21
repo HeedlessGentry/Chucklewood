@@ -66,14 +66,16 @@ const LandingPage = () => {
                     <img 
                     src="https://static.vecteezy.com/system/resources/thumbnails/011/675/374/small_2x/man-avatar-image-for-profile-png.png"
                     alt="profilepic"
-                    width={"50px"}
+                    width={"85px"}
+                    border={"2px solid #ccc"}
+                    borderRadius={"10px"}
                     />
                 </div>
-                <div className="button">
-                    <a href="/skills">
-                    <button className="click">See more...</button>
-                    </a>
-                </div>
+            </div>
+            <div className="button">
+                <a href="/skills">
+                <button className="click">See More...</button>
+                </a>
             </div>
             <div className="skills-section">
                 <h1 style={{color: 'maroon', fontWeight: 'bold', fontSize: '24px'}}>Our Services</h1>
