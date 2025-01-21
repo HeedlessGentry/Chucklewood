@@ -66,8 +66,8 @@ const LandingPage = () => {
                     <img 
                     src="https://static.vecteezy.com/system/resources/thumbnails/011/675/374/small_2x/man-avatar-image-for-profile-png.png"
                     alt="profilepic"
-                    width={"85px"}
-                    border={"2px inset #ccc"}
+                    width={"150px"}
+                    border={"inset"}
                     borderRadius={"10px"}
                     />
                 </div>
