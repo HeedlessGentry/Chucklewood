@@ -6,7 +6,7 @@ import '../styles/LandingPage.css';
 const LandingPage = () => {
     const slides = [
         {
-            image: "https://img.freepik.com/premium-photo/programming-background-with-person-working-with-codes-computer_23-2150010150.jpg",
+            image: "https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=612x612&w=0&k=20&c=JESGRQ2xqRH9ZcJzvZBHZIZKVY8MDejBSOfxeM-i5e4=",
             text: "Welcome to Our Website",
             buttonText: "Learn More",
             link: "/about",
@@ -18,7 +18,7 @@ const LandingPage = () => {
             link: "/projects",
         },
         {
-            image: "https://img.freepik.com/premium-photo/programming-background-with-person-working-with-codes-computer_23-2150010150.jpg",
+            image: "https://wallpapers.com/images/hd/random-pictures-zxti3l8kfhl5ojbh.jpg",
             text: "Recommendations Await",
             buttonText: "See Recommendations",
             link: "/recommendations",
@@ -73,9 +73,7 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className="button">
-                <a href="/skills">
-                <button className="click">See More...</button>
-                </a>
+                <button className="click" onClick={() => navigate("/skills")}>See More...</button>
             </div>
             <div className="skills-section">
                 <h1 style={{color: 'maroon', fontWeight: 'bold', fontSize: '24px'}}>Our Services</h1>
