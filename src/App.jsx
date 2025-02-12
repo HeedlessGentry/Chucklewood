@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Recommendations from "./components/Recommendations";
-import ScrollToTop from "./components/ScrollToTop";
-import LandingPage from "./components/LandingPage";
+import Navbar from "./Navbar";
+import About from "./About";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Recommendations from "./Recommendations";
+import ScrollToTop from "./ScrollToTop";
+import LandingPage from "./LandingPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Chucklewood">
       <div className="app-container">
       <Navbar />
       <ScrollToTop />

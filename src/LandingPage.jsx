@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import '../styles/LandingPage.css';
+import { Button } from "./components/ui/button";
 
 const LandingPage = () => {
     const slides = [
@@ -51,10 +51,9 @@ const LandingPage = () => {
                 />
                 <div className={`slide-text ${animation ? "fade-out" : "fade-in"}`}>
                     <h2>{slides[currentSlide].text}</h2>
-                    <button 
-                    className="slide-button"
+                    <Button 
                     onClick={() => navigate(slides[currentSlide].link)}
-                    >{slides[currentSlide].buttonText}</button>
+                    >{slides[currentSlide].buttonText}</Button>
                 </div>
             </div>
             <div className="brief">
@@ -73,7 +72,7 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className="button">
-                <button className="click" onClick={() => navigate("/skills")}>See More...</button>
+                <Button onClick={() => navigate("/skills")}>See More...</Button>
             </div>
             <div className="skills-section">
                 <h1 style={{color: 'maroon', fontWeight: 'bold', fontSize: '24px'}}>Our Services</h1>

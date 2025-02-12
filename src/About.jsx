@@ -1,14 +1,14 @@
 import React from "react";
-import '../styles/About.css';
 
 function About() {
     return (
-        <div className="about">
-            <div className="profile_pic">
+        <div className="container mx-auto px-4 py-8 mt-24 flex justify-end">
+            <div className="mr-8">
                 <img
                 src="https://static.vecteezy.com/system/resources/thumbnails/011/675/374/small_2x/man-avatar-image-for-profile-png.png"
                 alt="profilepic"
-                width={"200px"}
+                width={200}
+                className="rounded-lg shadow-md"
                 />
             </div>
             <div className="about_me">
